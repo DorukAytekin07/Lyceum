@@ -1,9 +1,10 @@
-import { useState } from 'react'
-
+import SideNavBar from './Components/SideBar'
+import "../src/CSS/App.css"
 function App() {
 
   return (
     <>
+      <SideNavBar/>
     </>
   )
 }
