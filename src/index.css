@@ -1,9 +1,9 @@
 :root {
-  --hover-color: #0091ff;
-  --sidebar-background-color: #444;
+  --text-color: #EEEEEE;
+  --hover-color: #76ABAE;
+  --sidebar-background-color: #31363F;
+  --body-background-color: #222831;
   /*	--gary: #756388; */
-  --text-color: #ffffff;
-  --body-background-color: #333
 }
 
 body {
