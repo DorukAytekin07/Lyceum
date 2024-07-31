@@ -27,7 +27,7 @@ const SideNavBar = () => {
       text: "Philosophy",
       icon: "../icons/philosophy.png",
     },
-    
+
   ];
   return (
     <div
@@ -41,7 +41,7 @@ const SideNavBar = () => {
         <div className="nav-heading">
           {isExpanded && (
             <div className="nav-brand">
-              <a href="/">  <h2>Academia</h2> </a>
+              <a href="/">  <img src="../../public/icons/logo.png" /> </a>
             </div>
           )}
           <button
@@ -57,13 +57,15 @@ const SideNavBar = () => {
         </div>
         <div className="nav-menu">
           {menuItems.map(({ text, icon }) => (
-            <a
-              className={isExpanded ? "menu-item" : "menu-item menu-item-NX"}
-              href="#"
-            >
-              <img className="menu-item-icon" src={icon} alt="" srcset="" />
-              {isExpanded && <p>{text}</p>}
-            </a>
+            <div className="menu-item-div">
+              <a
+                className={isExpanded ? "menu-item" : "menu-item menu-item-NX"}
+                href="#"
+              >
+                <img className="menu-item-icon" src={icon} alt="" srcset="" />
+                {isExpanded && <p>{text}</p>}
+              </a>
+            </div>
           ))}
         </div>
       </div>
