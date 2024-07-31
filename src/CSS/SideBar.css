@@ -14,7 +14,8 @@
 }
 
 .nav-upper {
-  width: 300px;
+  width: 100%;
+  height: 100%
 }
 
 .nav-upper,
@@ -22,36 +23,37 @@
 .nav-menu,
 .menu-item,
 .nav-footer {
-  width: auto;
   /*border: 2px solid white;*/
   display: grid;
 }
 
 .nav-heading {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 4fr 1fr;
   grid-template-rows: 1fr;
-  height: auto;
-  width: fit-content;
+  height: 100%;
+  width: 100%;
 }
 
 .nav-brand {
+  height: 100%;
+  width: 100%;
   display: flex;
   color: var(--text-color);
 }
 
 .nav-brand a {
+  width: 100%;
+  height: 140px;
   text-decoration: none;
 }
 
-.nav-brand h2 {
-  color: var(--text-color);
-  width: auto;
-  margin-left: 60px;
-  text-align: center;
+.nav-brand img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .hamburger {
-  margin: auto;
   margin-top: 10px;
   background: none;
   border: none;
@@ -93,9 +95,8 @@
 /* ///////////////////// */
 /* ///////////////////// */
 .hamburger-out {
-  margin: auto;
-  margin-top: 10px;
   margin-left: 24px;
+  margin-top: 20px;
 }
 
 .hamburger-out:hover span:nth-child(1) {
@@ -118,17 +119,16 @@
   overflow-x: hidden;
   min-height: 100vh;
   grid-template-rows: repeat(7, 1fr);
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .menu-item {
   width: 100%;
-  height: 57px;
+  height: 60px;
   display: flex;
   color: var(--text-color);
   text-decoration: none;
   text-transform: uppercase;
-  margin: auto 10px;
   padding-bottom: 20px;
   border-radius: 10px;
 }
@@ -137,17 +137,24 @@
   margin: auto;
 }
 
-/*.menu-item:hover {
-	background-color: var(--primary);
-}*/
-.menu-item img {
+.menu-item-div{
+  margin-top: auto;
+  width: 90px;
+}
 
-  width: auto;
+.menu-item a {
+  width: 90px;
+
+}
+
+.menu-item-icon{
+  object-fit: cover;
   padding: 0 20px;
 }
 
+
+
 .menu-item p {
-  margin-left: 10px;
   font-weight: 600;
   text-align: center;
 }
