@@ -10,7 +10,7 @@
 }
 
 .side-nav-container-NX {
-  width: 90px;
+  width: 100px;
 }
 
 .nav-upper {
@@ -43,7 +43,7 @@
 
 .nav-brand a {
   width: 100%;
-  height: 140px;
+  height: 150px;
   text-decoration: none;
 }
 
@@ -95,8 +95,9 @@
 /* ///////////////////// */
 /* ///////////////////// */
 .hamburger-out {
-  margin-left: 24px;
+  margin-left: 31px;
   margin-top: 20px;
+  padding-bottom: 30px;
 }
 
 .hamburger-out:hover span:nth-child(1) {
@@ -119,7 +120,7 @@
   overflow-x: hidden;
   min-height: 100vh;
   grid-template-rows: repeat(7, 1fr);
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 .menu-item {
@@ -134,11 +135,9 @@
 }
 
 .menu-item-NX {
-  margin: auto;
 }
 
 .menu-item-div{
-  margin-top: auto;
   width: 90px;
 }
 
