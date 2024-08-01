@@ -1,12 +1,12 @@
 /* NX = not expanded */
 
 .side-nav-container {
+  position: relative;
   background-color: var(--sidebar-background-color);
   width: 300px;
   height: fit-content;
-  position: relative;
   color: var(--text-color);
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .side-nav-container-NX {
