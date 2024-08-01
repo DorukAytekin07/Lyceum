@@ -118,7 +118,7 @@
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  min-height: 100vh;
+  max-height: 100vh;
   grid-template-rows: repeat(7, 1fr);
   margin-top: 5px;
 }
