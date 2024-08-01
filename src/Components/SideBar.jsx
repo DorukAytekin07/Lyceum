@@ -1,34 +1,13 @@
 import React, { useState } from "react";
 import "../CSS/SideBar.css";
+import RoomsJSON from "../JSON/Rooms.json"
 const SideNavBar = () => {
   const [isExpanded, setExpendState] = useState(false);
-  const menuItems = [
-    {
-      text: "Programing",
-      icon: '../icons/programming.png'
-    },
-    {
-      text: "Math",
-      icon: "../icons/math.png",
-    },
-    {
-      text: "Physics",
-      icon: "../icons/physics.png",
-    },
-    {
-      text: "Biology",
-      icon: "../icons/biology.png",
-    },
-    {
-      text: "Chemistry",
-      icon: "../icons/chemistry.png",
-    },
-    {
-      text: "Philosophy",
-      icon: "../icons/philosophy.png",
-    },
+  let rooms = RoomsJSON.rooms.map(variable => {
+    return (<Room {...variable} expands={isExpanded} ></Room>)
+  })
 
-  ];
+
   return (
     <div
       className={
@@ -56,17 +35,9 @@ const SideNavBar = () => {
           </button>
         </div>
         <div className="nav-menu">
-          {menuItems.map(({ text, icon }) => (
-            <div className="menu-item-div">
-              <a
-                className={isExpanded ? "menu-item" : "menu-item menu-item-NX"}
-                href="#"
-              >
-                <img className="menu-item-icon" src={icon} alt="" srcset="" />
-                {isExpanded && <p>{text}</p>}
-              </a>
-            </div>
-          ))}
+          <div className="menu-item-div">
+            {rooms}
+          </div>
         </div>
       </div>
       <div className="nav-footer">
@@ -89,5 +60,23 @@ const SideNavBar = () => {
     </div>
   );
 };
+
+
+class Room extends React.Component {
+  render() {
+    return (
+      <a
+        className={this.props.expands ? "menu-item" : "menu-item menu-item-NX"}
+        href={this.props.page}
+      >
+        <img className="menu-item-icon" src={this.props.icon} alt="" srcset="" />
+        {this.props.expands && <p>{this.props.text}</p>}
+      </a>
+
+    )
+
+  }
+
+}
 
 export default SideNavBar;
