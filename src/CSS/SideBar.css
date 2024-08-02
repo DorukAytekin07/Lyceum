@@ -1,7 +1,7 @@
 /* NX = not expanded */
 
 .side-nav-container {
-  position: relative;
+  position: fixed;
   background-color: var(--sidebar-background-color);
   width: 300px;
   height: fit-content;
@@ -118,9 +118,10 @@
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  max-height: 100vh;
+  max-height: 76vh;
   grid-template-rows: repeat(7, 1fr);
   margin-top: 5px;
+  margin-bottom: 15vh;
 }
 
 .menu-item {
