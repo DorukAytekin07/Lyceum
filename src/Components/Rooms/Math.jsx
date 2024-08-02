@@ -25,7 +25,7 @@ class Book extends React.Component {
     return (
       <div className={this.props.title ? "title-container" : "book-container"}>
         {this.props.title && <h1 className="title">{this.props.title}</h1>}
-        {this.props.icon && <img className="img-container" src={this.props.icon} />}
+        {this.props.icon && <img className="book-img" src={this.props.icon} />}
         {this.props.link && <a href={this.props.link} className="center button">Read</a>}
       </div>
     )
