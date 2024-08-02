@@ -1,0 +1,14 @@
+{
+  "books":{
+      "opengl":[
+      {
+        "title":"C++ Graphic Development"
+      },
+      {
+        "icon":"../Covers/Learn OpenGL Joey de Vries.png",
+        "link":"../PDF/Learn OpenGl.pdf",
+        "info":"Read"
+      }
+    ]
+  }
+}
