@@ -4,6 +4,7 @@
   --sidebar-background-color: #31363F;
   --body-background-color: #222831;
   /*	--gary: #756388; */
+  overflow-x: hidden;
 }
 
 #root {
