@@ -5,23 +5,28 @@
         "title":"Discrete Math"
       },
       {
-        "icon":"../icons/programming.png",
+        "icon":"../Covers/Discrete And Combinatorail Mathematics.png",
+        "link":"../PDF/Discrete and Combinatorial Mathematics An Applied Introduction.pdf",
+        "info":"Read"
+      },
+      {
+        "icon":"../Covers/Discrete Mathematics And Its Applications.png",
+        "link":"../PDF/Kenneth Rosen - Discrete Mathematics and Its Applications - 8th edition.pdf",
+        "info":"Read"
+      },
+      {
+        "icon":"../Covers/Discrete Mathematics With Applications Susanna Epp.png",
+        "link":"../PDF/Discrete Mathematics With Applications, 5th Edition Susanna S. Epp.pdf",
+        "info":"Read"
+      },
+      {
+        "icon":"../Covers/Discrete Mathematics.png",
         "link":"../PDF/Discrete Mathematics.pdf",
         "info":"Read"
       },
       {
-        "icon":"../icons/math.png",
-        "link":"../PDF/Discrete Mathematics.pdf",
-        "info":"Read"
-      },
-      {
-        "icon":"../icons/biology.png",
-        "link":"../PDF/Discrete Mathematics.pdf",
-        "info":"Read"
-      },
-      {
-        "icon":"../icons/chemistry.png",
-        "link":"../PDF/Discrete Mathematics.pdf",
+        "icon":"../Covers/Introductory Discrete Mathematics.png",
+        "link":"../PDF/Introductory Discrete Mathematics.pdf",
         "info":"Read"
       }
     ]

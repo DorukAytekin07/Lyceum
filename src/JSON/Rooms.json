@@ -9,26 +9,7 @@
       "text": "Math",
       "icon": "../icons/math.png",
       "page": "/math"
-    },
-    {
-      "text": "Physics",
-      "icon": "../icons/physics.png",
-      "page": "/physics"
-    },
-    {
-      "text": "Biology",
-      "icon": "../icons/biology.png",
-      "page": "/biology"
-    },
-    {
-      "text": "Chemistry",
-      "icon": "../icons/chemistry.png",
-      "page": "/chemistry"
-    },
-    {
-      "text": "Philosophy",
-      "icon": "../icons/philosophy.png",
-      "page": "/philosophy"
     }
+    
   ]
 }
