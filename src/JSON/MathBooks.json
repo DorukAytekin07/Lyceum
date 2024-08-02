@@ -1,0 +1,29 @@
+{
+  "books":{
+      "discrete":[
+      {
+        "title":"Discrete Math"
+      },
+      {
+        "icon":"../icons/programming.png",
+        "link":"../PDF/Discrete Mathematics.pdf",
+        "info":"Read"
+      },
+      {
+        "icon":"../icons/math.png",
+        "link":"../PDF/Discrete Mathematics.pdf",
+        "info":"Read"
+      },
+      {
+        "icon":"../icons/biology.png",
+        "link":"../PDF/Discrete Mathematics.pdf",
+        "info":"Read"
+      },
+      {
+        "icon":"../icons/chemistry.png",
+        "link":"../PDF/Discrete Mathematics.pdf",
+        "info":"Read"
+      }
+    ]
+  }
+}
