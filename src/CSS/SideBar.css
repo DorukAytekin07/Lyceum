@@ -18,6 +18,10 @@
   height: 100%
 }
 
+.nav-menu::-webkit-scrollbar{
+  display: none;
+}
+
 .nav-upper,
 .nav-heading,
 .nav-menu,
