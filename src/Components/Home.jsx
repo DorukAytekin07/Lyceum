@@ -6,7 +6,7 @@ const Home = () => {
       <h1 className="title center">
         Hello Doruk Aytekin
       </h1>
-      <div className='img-description'>
+      <div c className='img-description'>
         <p className='text margin'>
           Welcome again to your virtual academy, sir. In here, as you know, you can learn many things from your uploaded books 
           or you can watch or read your daily experiments and daily reports, so with this, you cannot forget your past and 

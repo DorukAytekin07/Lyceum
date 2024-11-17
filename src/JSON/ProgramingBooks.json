@@ -20,16 +20,16 @@
         "icon":"../Covers/Programing/Cracking The Coding Interview.jpg",
         "link":"../PDF/Programing/Cracking The Code Interviews.pdf",
         "info":"Read",
-        "status":"Not Started",
-        "colour":"red"
+        "status":"Reading",
+        "colour":"blue"
 
       },
       {
         "icon":"../Covers/Programing/Grokking Algorithms.png",
         "link":"../PDF/Programing/Grokking Algorithms.pdf",
         "info":"Read",
-        "status":"Reading",
-        "colour":"blue"
+        "status":"Read",
+        "colour":"green"
       },
       {
         "icon":"../Covers/Programing/Introduction To Algorithms Charles E. L..png",

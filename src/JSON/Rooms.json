@@ -9,7 +9,11 @@
       "text": "Math",
       "icon": "../icons/math.png",
       "page": "/math"
+    },
+    {
+      "text": "Education",
+      "icon": "../icons/education.png",
+      "page": "/education"
     }
-    
   ]
 }

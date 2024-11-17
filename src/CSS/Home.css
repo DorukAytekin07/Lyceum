@@ -6,7 +6,7 @@
   margin-left: 100px;
 }
 
-.img-description{
+.img-description {
   margin: auto;
   display: grid;
   grid-template-columns: 4fr 2.5fr;
@@ -15,12 +15,12 @@
   padding-bottom: 20px;
 }
 
-.img-container{
+.img-container {
   opacity: 0.8;
   margin: auto;
   width: 99%;
   border-radius: 10px;
-  object-fit: contain; 
+  object-fit: contain;
 }
 
 .title {

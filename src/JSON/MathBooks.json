@@ -15,15 +15,15 @@
         "icon":"../Covers/Math/Discrete Mathematics And Its Applications.png",
         "link":"../PDF/Math/Kenneth Rosen - Discrete Mathematics and Its Applications - 8th edition.pdf",
         "info":"Read",
-        "status":"Not Started",
-        "colour":"red"
+        "status":"Reading",
+        "colour":"blue"
       },
       {
         "icon":"../Covers/Math/Discrete Mathematics With Applications Susanna Epp.png",
         "link":"../PDF/Math/Discrete Mathematics With Applications, 5th Edition Susanna S. Epp.pdf",
         "info":"Read",
-        "status":"Reading",
-        "colour":"blue"
+        "status":"Read",
+        "colour":"green"
       },
       {
         "icon":"../Covers/Math/Discrete Mathematics.png",

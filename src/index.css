@@ -1,13 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
-  --text-color: #EEEEEE;
-  --hover-color: #76ABAE;
-  --sidebar-background-color: #31363F;
+  --text-color: #eeeeee;
+  --hover-color: #76abae;
+  --sidebar-background-color: #31363f;
   --body-background-color: #222831;
   /*	--gary: #756388; */
   overflow-x: hidden;
-}
+  }
 
-:root::-webkit-scrollbar{
+:root::-webkit-scrollbar {
   display: none;
 }
 
@@ -15,7 +18,6 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-
 }
 
 body {

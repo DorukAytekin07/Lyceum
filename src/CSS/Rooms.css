@@ -31,11 +31,7 @@
   border-radius: 5px;
 }
 
-.book-img:hover ~ .top-left{
-  
-    opacity: 0;
-  
-}
+
 
 .top-left {
   position: absolute;
@@ -76,6 +72,11 @@
   color: var(--hover-color);
 }
 
+/* .book-img:hover ~ .top-left{
+  
+    opacity: 0;
+  
+} */
 
 
 @media only screen and (min-width: 700px ) and (max-width: 1199px) {

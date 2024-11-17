@@ -31,7 +31,7 @@ class Book extends React.Component {
           
           {this.props.icon && <div className={this.props.colour + ' ' + 'top-left' + ' ' + 'size'}>{this.props.status}</div>}
         </div>
-        {this.props.link && <a href={this.props.link} className="center button">Read</a>}
+        {this.props.link && <a href={this.props.link} target="_blank" className="center button">Read</a>}
       </div>
     )
   }
