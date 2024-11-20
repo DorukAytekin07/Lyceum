@@ -22,7 +22,6 @@ const Math = () => {
 
 class Book extends React.Component {
   render() {
-    console.log(this.props.colour)
     return (
       <div className={this.props.title ? "title-container" : "book-container"}>
         {this.props.title && <h1 className="title">{this.props.title}</h1>}
