@@ -14,6 +14,11 @@
       "text": "Education",
       "icon": "../icons/education.png",
       "page": "/education"
+    },
+    {
+      "text":"AP",
+      "icon":"../icons/exam.png",
+      "page":"/ap"
     }
   ]
 }
