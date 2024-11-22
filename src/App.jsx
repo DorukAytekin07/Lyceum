@@ -6,6 +6,8 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import Programing from './Components/Rooms/Programing'
 import Math from './Components/Rooms/Math'
 import Education from './Components/Rooms/Education'
+import AP from "./Components/Rooms/AP"
+
 
 function App() {
 
@@ -19,6 +21,7 @@ function App() {
           <Route path="/math" element={<Math />} />
           <Route path="/programing" element={<Programing />} />
           <Route path="/education" element={<Education />} />
+          <Route path='/ap' element={<AP/>}/>
         </Routes>
       </Router>
     </>
