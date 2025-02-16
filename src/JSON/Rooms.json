@@ -19,6 +19,11 @@
       "text":"AP",
       "icon":"../icons/exam.png",
       "page":"/ap"
+    },
+    {
+      "text":"Latin",
+      "icon":"../icons/latin.png",
+      "page":"/latin"
     }
   ]
 }

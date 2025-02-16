@@ -7,7 +7,7 @@ import Programing from './Components/Rooms/Programing'
 import Math from './Components/Rooms/Math'
 import Education from './Components/Rooms/Education'
 import AP from "./Components/Rooms/AP"
-
+import Latin from "./Components/Rooms/Latin"
 
 function App() {
 
@@ -22,6 +22,7 @@ function App() {
           <Route path="/programing" element={<Programing />} />
           <Route path="/education" element={<Education />} />
           <Route path='/ap' element={<AP/>}/>
+          <Route path='/latin' element={<Latin/>} />
         </Routes>
       </Router>
     </>
